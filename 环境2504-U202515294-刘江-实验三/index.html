@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>刘江的个人主页</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <!-- 表格布局开始 -->
+    <table border="1" width="800" align="center" cellspacing="0" cellpadding="10">
+
+    <!-- 第一行：Logo + 标题 -->
+    <tr>
+        <!-- 左侧Logo -->
+        <td width="150" align="center" valign="middle">
+            <img src="logo.jpg" width="100" alt="Logo">
+        </td>
+
+        <!-- 右侧标题，注意 colspan="2"，这会吃掉右边的空白 -->
+        <td colspan="2">
+            <h1>个人简介</h1>
+        </td>
+    </tr>
+
+    <!-- 第二行：滚动字幕 -->
+    <tr>
+        <!-- 字幕横跨全部3列，注意 colspan="3" -->
+        <td colspan="3">
+            <marquee>欢迎光临刘江的个人网站！</marquee>
+        </td>
+    </tr>
+
+
+        <!-- 第三行：主体内容（三列） -->
+        <tr>
+            <!-- 左列：按钮导航 -->
+            <td width="200" valign="top">
+                <h4>网站导航</h4>
+                <!-- 这里的 href 指向你后面要做的另外两个页面 -->
+                <p><a href="page1.html"><button>我的爱好</button></a></p>
+                <p><a href="page2.html"><button>学习心得</button></a></p>
+                <p><a href="page3.html"><button>喜欢的食物</button></a></p>
+                <p><a href="page4.html"><button>我的家乡</button></a></p>
+                <p><a href="page5.html"><button>祝福语</button></a></p>
+            </td>
+
+            <!-- 中列：核心介绍 -->
+            <td width="400" valign="top" align="center">
+                <h2>关于我</h2>
+                <!-- 这里显示你的照片 -->
+                <img src="me.jpg" width="200" alt="我的照片">
+                <p>大家好，我是刘江，来自环境2504班。
+                <br>这里是我展示自己和学习网络知识的个人小站。
+                <br>希望你喜欢这里的内容！</p>
+            </td>
+
+            <!-- 右列：文字链接 -->
+            <td width="200" valign="top">
+                <h4>推荐链接</h4>
+                <ul>
+                    <li><a href="http://www.hust.edu.cn" target="_blank">华中科技大学官网</a></li>
+                    <li><a href="https://ese.hust.edu.cn/" target="_blank">环境学院主页</a></li>
+                    <li><a href="https://www.icourse163.org/" target="_blank">常用学习工具</a></li>
+                </ul>
+            </td>
+        </tr>
+
+        <!-- 第四行：底部制作人信息 -->
+        <tr>
+            <td colspan="3" align="center" bgcolor="#f0f0f0">
+                <p>
+                    制作人：刘江 | 班级：环境2504
+                    <br>
+                    <!-- 这是一个邮箱链接 -->
+                    联系方式：<a href="mailto:1763135316@qq.com">1763135316@qq.com</a>
+                </p>
+            </td>
+        </tr>
+
+    </table>
+    <!-- 表格布局结束 -->
+</body>
+</html>
